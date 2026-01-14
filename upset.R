@@ -3,6 +3,13 @@
 ## Input : Folder with annotated.csv files
 ## Output: common_variant_annotated.csv
 ############################################################
+## -------------------------------
+## 1. Load libraries
+## -------------------------------
+suppressPackageStartupMessages({
+  library(UpSetR)
+  library(tools)
+})
 
 ## -------------------------------
 ## 1. Set input directory
